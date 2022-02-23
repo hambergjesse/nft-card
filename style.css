@@ -37,12 +37,12 @@ p {
 body {
   font-family: "Outfit", sans-serif;
   font-size: 18px;
-  background: rgb(174, 199, 238);
-  background: radial-gradient(
+  background: var(--main-bg);
+  /*background: radial-gradient(
     circle,
     rgba(34, 69, 149, 1) 100%,
     rgba(174, 199, 238, 1) 50%
-  );
+  );*/
   color: hsl(0, 0%, 100%, 60%);
   padding: 1.25rem;
 }
